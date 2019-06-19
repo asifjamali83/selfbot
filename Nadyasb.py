@@ -12,7 +12,7 @@ from googletrans import Translator
 botStart = time.time()
 
 #nadya = LINE()
-nadya = LINE("EG7w9tzxMhWVonfqIGnb.iEKLQqr+KXdSVGWpsvd/QW.vWdfZOO8rovkFWUfUbypmXEd5Ei9KlpWJZ/LwExun28=")
+nadya = LINE("EG9PrJRcNpMFaUzjBnkb.iEKLQqr+KXdSVGWpsvd/QW.8XLywbqgg57gPRgN3g66V0KNdoMA814pNwNSnyPcS6o=")
 #nadya = LINE("Email","Password")
 nadya.log("Auth Token : " + str(nadya.authToken))
 channelToken = nadya.getChannelResult()
